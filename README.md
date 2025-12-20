@@ -32,6 +32,8 @@
 
 ## Tech Stack
 
+- Gather this from my repos, show a "icon cloud" (like a word cloud) of what is my most used tech.
+
 ## 🌱 Currently Exploring
 
 - 🚀 Learning Full Stack Web Development
