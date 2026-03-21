@@ -11,7 +11,7 @@ export const getStaticPaths: GetStaticPaths = () => {
 };
 
 const { slug } = Astro.params;
-const resume = getResolvedBySlug(slug!);
+const resume = getResolvedBySlug(String(slug));
 
 if (!resume) {
   return Astro.redirect("/resume");

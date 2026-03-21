@@ -64,7 +64,7 @@ function applyOverrides(
       );
     }
 
-    (entry as Record<string, unknown>)[field] = value;
+    (entry as unknown as Record<string, unknown>)[field] = value;
   }
 }
 
