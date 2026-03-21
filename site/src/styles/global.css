@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme inline {
+  --color-bg: var(--background, #fafafa);
+  --color-fg: var(--foreground, #1a1a1a);
+  --color-ac: var(--accent, #2563eb);
+  --color-mt: var(--muted, #f5f5f5);
+  --color-bd: var(--border, #e5e5e5);
+}
+
+@layer base {
+  :root {
+    --background: #fafafa;
+    --foreground: #1a1a1a;
+    --accent: #2563eb;
+    --muted: #f5f5f5;
+    --border: #e5e5e5;
+  }
+
+  [data-theme="dark"] {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --accent: #60a5fa;
+    --muted: #1a1a1a;
+    --border: #2a2a2a;
+  }
+
+  * {
+    @apply border-bd;
+  }
+
+  body {
+    @apply flex min-h-svh flex-col bg-bg text-fg;
+  }
+}
+
+@utility max-w-app {
+  @apply max-w-3xl;
+}
+
+@utility app-layout {
+  @apply mx-auto w-full max-w-app px-4;
+}
