@@ -1,0 +1,102 @@
+---
+// site/src/pages/resume/[slug].astro
+import type { GetStaticPaths } from "astro";
+import Main from "@/layouts/Main.astro";
+import CvSection from "@/components/CvSection.astro";
+import { formatDate } from "@/utils/formatDate";
+import { getAllProfiles, getResolvedBySlug } from "@/utils/loadResumes";
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return getAllProfiles().map(p => ({ params: { slug: p.slug } }));
+};
+
+const { slug } = Astro.params;
+const resume = getResolvedBySlug(slug!);
+
+if (!resume) {
+  return Astro.redirect("/resume");
+}
+---
+
+<Main title={`Resume — ${resume.title}`} pageTitle={resume.title} pageDesc="Targeted resume">
+  <div class="mb-6">
+    <a
+      href={`/resumes/${resume.slug}.pdf`}
+      class="inline-block rounded bg-ac px-4 py-2 font-medium text-white hover:opacity-90"
+      download
+    >
+      Download PDF
+    </a>
+    <a href="/resume" class="ml-4 text-sm text-ac underline-offset-4 hover:underline">
+      All resumes
+    </a>
+  </div>
+
+  <CvSection title="Experience">
+    {resume.experience.map(job => (
+      <div class="mb-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+          <h3 class="text-lg font-medium">{job.title}</h3>
+          <span class="text-sm text-fg/60">
+            {formatDate(job.start)} — {formatDate(job.end)}
+          </span>
+        </div>
+        <p class="text-fg/70">{job.company} · {job.location}</p>
+        {job.highlights.length > 0 && (
+          <ul class="mt-2 list-disc space-y-1 pl-5 text-sm">
+            {job.highlights.map(h => <li>{h}</li>)}
+          </ul>
+        )}
+      </div>
+    ))}
+  </CvSection>
+
+  {resume.education.length > 0 && (
+    <CvSection title="Education">
+      {resume.education.map(edu => (
+        <div class="mb-4">
+          <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+            <h3 class="text-lg font-medium">{edu.degree} in {edu.field}</h3>
+            <span class="text-sm text-fg/60">{formatDate(edu.start)} — {formatDate(edu.end)}</span>
+          </div>
+          <p class="text-fg/70">{edu.institution}</p>
+        </div>
+      ))}
+    </CvSection>
+  )}
+
+  {resume.skills.length > 0 && (
+    <CvSection title="Skills">
+      {resume.skills.map(group => (
+        <div class="mb-3">
+          <span class="font-medium">{group.category}:</span>{" "}
+          <span class="text-fg/80">{group.items.join(", ")}</span>
+        </div>
+      ))}
+    </CvSection>
+  )}
+
+  {resume.projects.length > 0 && (
+    <CvSection title="Projects">
+      {resume.projects.map(proj => (
+        <div class="mb-4">
+          <h3 class="text-lg font-medium">
+            <a href={proj.url} class="text-ac underline-offset-4 hover:underline" target="_blank" rel="noopener">{proj.name}</a>
+          </h3>
+          <p class="text-fg/70">{proj.description}</p>
+        </div>
+      ))}
+    </CvSection>
+  )}
+
+  {resume.certifications.length > 0 && (
+    <CvSection title="Certifications">
+      {resume.certifications.map(cert => (
+        <div class="mb-3">
+          <a href={cert.url} class="font-medium text-ac underline-offset-4 hover:underline" target="_blank" rel="noopener">{cert.name}</a>
+          <span class="text-fg/60"> · {cert.issuer} · {formatDate(cert.date)}</span>
+        </div>
+      ))}
+    </CvSection>
+  )}
+</Main>

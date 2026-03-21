@@ -1,0 +1,33 @@
+---
+// site/src/pages/resume/index.astro
+import Main from "@/layouts/Main.astro";
+import { getAllProfiles } from "@/utils/loadResumes";
+
+const profiles = getAllProfiles();
+---
+
+<Main title="Resumes" pageTitle="Resumes" pageDesc="Role-specific resume variants">
+  <div class="space-y-4">
+    {profiles.map(profile => (
+      <div class="rounded border border-bd p-4">
+        <div class="flex items-center justify-between">
+          <div>
+            <a href={`/resume/${profile.slug}`} class="text-lg font-medium text-ac underline-offset-4 hover:underline">
+              {profile.title}
+            </a>
+            <p class="text-sm text-fg/60">
+              {profile.include.experience.length} roles · {profile.include.skills.length} skill groups
+            </p>
+          </div>
+          <a
+            href={`/resumes/${profile.slug}.pdf`}
+            class="rounded bg-ac px-3 py-1.5 text-sm font-medium text-white hover:opacity-90"
+            download
+          >
+            Download PDF
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+</Main>
