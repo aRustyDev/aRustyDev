@@ -1,0 +1,37 @@
+---
+import Main from "@/layouts/Main.astro";
+import { SOCIALS } from "@/config";
+import cvData from "@data/cv.json";
+import type { CV } from "@data/schema";
+
+const cv = cvData as CV;
+---
+
+<Main title="Contact" pageTitle="Contact" pageDesc="Get in touch">
+  <div class="space-y-6">
+    <div>
+      <h2 class="mb-2 text-lg font-medium">Email</h2>
+      <a href={`mailto:${cv.personal.email}`} class="text-ac underline-offset-4 hover:underline">
+        {cv.personal.email}
+      </a>
+    </div>
+
+    <div>
+      <h2 class="mb-2 text-lg font-medium">Links</h2>
+      <ul class="space-y-2">
+        {SOCIALS.filter(s => s.active).map(({ name, href }) => (
+          <li>
+            <a href={href} class="text-ac underline-offset-4 hover:underline" target="_blank" rel="noopener">
+              {name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div>
+      <h2 class="mb-2 text-lg font-medium">Location</h2>
+      <p class="text-fg/70">{cv.personal.location}</p>
+    </div>
+  </div>
+</Main>
