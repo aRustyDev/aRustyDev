@@ -683,7 +683,7 @@ export async function fetchGitHubData(token: string): Promise<GitHubData> {
       totalDiscussions: user.repositoryDiscussionComments?.totalCount ?? 0,
       totalStars,
       totalRepos: user.repositories.totalCount,
-      contributionStreak: 0, // Calculated separately if needed
+      contributionStreak: 0, // DEFERRED: Streak calculation requires walking contribution calendar days. Implement after initial launch.
     },
   };
 }
@@ -799,6 +799,9 @@ export function generateActivitySummary(stats: ActivityStats): string {
     { label: "Issues", value: formatNumber(stats.totalIssues), icon: "" },
     { label: "Stars", value: formatNumber(stats.totalStars), icon: "" },
     { label: "Repos", value: formatNumber(stats.totalRepos), icon: "" },
+    // DEFERRED: "total lines" and "contribution rank percentiles" from spec.
+    // Total lines requires cloning/scanning repos (expensive). Rank percentiles
+    // require a reference dataset. Both deferred to post-launch iteration.
   ];
 
   const colWidth = (width - 40) / items.length;

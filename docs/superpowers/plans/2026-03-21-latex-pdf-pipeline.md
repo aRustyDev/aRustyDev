@@ -481,7 +481,9 @@ ${items}
 }
 
 /** Accepts template content as a string (not a file path) for testability.
- *  The CLI wrapper (render-tex-cli.ts) handles file I/O. */
+ *  The CLI wrapper (render-tex-cli.ts) handles file I/O and validation.
+ *  Design decision: validation is done at the boundary (CLI entry point),
+ *  not inside renderTex. This keeps renderTex pure and testable. */
 export function renderTex(
   cv: CV,
   profile: ResumeProfile,
@@ -684,6 +686,8 @@ jobs:
         run: npm ci
 
       - name: Install tectonic
+        # DEFERRED: Fallback to latexmk + danteev/texlive Docker image if
+        # tectonic proves unreliable. For now, tectonic is sufficient.
         run: |
           curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net | sh
           echo "$HOME/.local/bin" >> $GITHUB_PATH
