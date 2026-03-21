@@ -1,0 +1,27 @@
+{
+  "name": "arustydev",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub profile repo — portfolio site + dynamic README",
+  "author": "aRustyDev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "workspaces": [
+    "site"
+  ],
+  "scripts": {
+    "build": "cd site && npm run build",
+    "build:readme": "scripts/build-readme.sh",
+    "build:pdfs": "scripts/build-all-pdfs.sh",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.1.1"
+  }
+}
