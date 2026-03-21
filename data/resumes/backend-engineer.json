@@ -1,0 +1,17 @@
+{
+  "slug": "backend-engineer",
+  "title": "Backend Engineer",
+  "include": {
+    "experience": ["example-senior-swe", "example-swe"],
+    "education": ["example-university"],
+    "skills": ["languages", "infrastructure"],
+    "projects": ["example-oss-tool"],
+    "certifications": ["aws-saa"]
+  },
+  "overrides": {
+    "experience.example-senior-swe.highlights": [
+      "Led architecture of distributed event processing system handling 10M events/day",
+      "Reduced deploy times by 60% through CI/CD pipeline optimization using GitHub Actions"
+    ]
+  }
+}
