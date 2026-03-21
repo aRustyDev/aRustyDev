@@ -1,0 +1,28 @@
+---
+import Layout from "./Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+  pageTitle?: string;
+  pageDesc?: string;
+}
+
+const { title, description, pageTitle, pageDesc } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+  <Header />
+  <main class="app-layout flex-1 py-8">
+    {pageTitle && (
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold sm:text-4xl">{pageTitle}</h1>
+        {pageDesc && <p class="mt-2 text-fg/70">{pageDesc}</p>}
+      </div>
+    )}
+    <slot />
+  </main>
+  <Footer />
+</Layout>

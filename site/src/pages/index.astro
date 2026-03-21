@@ -1,15 +1,23 @@
 ---
-import "@/styles/global.css";
-import { SITE } from "@/config";
+import Main from "@/layouts/Main.astro";
+import { SITE, SOCIALS } from "@/config";
 ---
 
-<html lang={SITE.lang}>
-  <head>
-    <meta charset="utf-8" />
-    <title>{SITE.title}</title>
-  </head>
-  <body>
-    <h1>{SITE.title}</h1>
-    <p>{SITE.description}</p>
-  </body>
-</html>
+<Main>
+  <section class="py-8">
+    <h1 class="text-4xl font-bold sm:text-5xl">{SITE.title}</h1>
+    <p class="mt-4 text-lg text-fg/80">{SITE.description}</p>
+    <div class="mt-6 flex gap-4">
+      {SOCIALS.filter(s => s.active).map(({ name, href }) => (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-ac underline-offset-4 hover:underline"
+        >
+          {name}
+        </a>
+      ))}
+    </div>
+  </section>
+</Main>

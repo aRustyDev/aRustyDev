@@ -1,0 +1,71 @@
+---
+import { SITE, NAV_LINKS } from "@/config";
+
+const { pathname } = Astro.url;
+const currentPath = pathname.endsWith("/") && pathname !== "/"
+  ? pathname.slice(0, -1)
+  : pathname;
+
+const isActive = (path: string) => {
+  if (path === "/") return currentPath === "/";
+  return currentPath.startsWith(path);
+};
+---
+
+<header class="app-layout border-b border-bd py-4 sm:py-6">
+  <div class="flex items-center justify-between">
+    <a href="/" class="text-xl font-semibold sm:text-2xl">{SITE.title}</a>
+    <nav>
+      <button
+        id="menu-btn"
+        class="p-2 sm:hidden"
+        aria-label="Open Menu"
+        aria-expanded="false"
+        aria-controls="menu-items"
+      >
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <ul
+        id="menu-items"
+        class:list={[
+          "hidden sm:flex sm:items-center sm:gap-x-5",
+          "max-sm:absolute max-sm:right-4 max-sm:top-16 max-sm:z-10",
+          "max-sm:rounded max-sm:border max-sm:border-bd max-sm:bg-bg max-sm:p-4",
+        ]}
+      >
+        {NAV_LINKS.map(({ name, href }) => (
+          <li>
+            <a
+              href={href}
+              class:list={[
+                "block py-1 text-sm transition-colors hover:text-ac",
+                { "font-semibold text-ac": isActive(href) },
+              ]}
+            >
+              {name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  function setupMenu() {
+    const btn = document.querySelector("#menu-btn");
+    const menu = document.querySelector("#menu-items");
+    if (!btn || !menu) return;
+
+    btn.addEventListener("click", () => {
+      const open = btn.getAttribute("aria-expanded") === "true";
+      btn.setAttribute("aria-expanded", open ? "false" : "true");
+      menu.classList.toggle("hidden");
+    });
+  }
+
+  setupMenu();
+  document.addEventListener("astro:after-swap", setupMenu);
+</script>
