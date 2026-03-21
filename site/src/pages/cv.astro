@@ -1,0 +1,82 @@
+---
+import Main from "@/layouts/Main.astro";
+import CvSection from "@/components/CvSection.astro";
+import { formatDate } from "@/utils/formatDate";
+import cvData from "@data/cv.json";
+import type { CV } from "@data/schema";
+
+const cv = cvData as CV;
+---
+
+<Main title="CV" pageTitle="Curriculum Vitae" pageDesc="Full professional history">
+  <CvSection title="Experience">
+    {cv.experience.map(job => (
+      <div class="mb-6">
+        <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+          <h3 class="text-lg font-medium">{job.title}</h3>
+          <span class="text-sm text-fg/60">
+            {formatDate(job.start)} — {formatDate(job.end)}
+          </span>
+        </div>
+        <p class="text-fg/70">{job.company} · {job.location}</p>
+        {job.highlights.length > 0 && (
+          <ul class="mt-2 list-disc space-y-1 pl-5 text-sm">
+            {job.highlights.map(h => <li>{h}</li>)}
+          </ul>
+        )}
+      </div>
+    ))}
+  </CvSection>
+
+  <CvSection title="Education">
+    {cv.education.map(edu => (
+      <div class="mb-4">
+        <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+          <h3 class="text-lg font-medium">{edu.degree} in {edu.field}</h3>
+          <span class="text-sm text-fg/60">
+            {formatDate(edu.start)} — {formatDate(edu.end)}
+          </span>
+        </div>
+        <p class="text-fg/70">{edu.institution}</p>
+      </div>
+    ))}
+  </CvSection>
+
+  <CvSection title="Skills">
+    {cv.skills.map(group => (
+      <div class="mb-3">
+        <span class="font-medium">{group.category}:</span>{" "}
+        <span class="text-fg/80">{group.items.join(", ")}</span>
+      </div>
+    ))}
+  </CvSection>
+
+  <CvSection title="Projects">
+    {cv.projects.map(proj => (
+      <div class="mb-4">
+        <h3 class="text-lg font-medium">
+          <a href={proj.url} class="text-ac underline-offset-4 hover:underline" target="_blank" rel="noopener">
+            {proj.name}
+          </a>
+        </h3>
+        <p class="text-fg/70">{proj.description}</p>
+        {proj.highlights.length > 0 && (
+          <ul class="mt-1 list-disc space-y-1 pl-5 text-sm">
+            {proj.highlights.map(h => <li>{h}</li>)}
+          </ul>
+        )}
+      </div>
+    ))}
+  </CvSection>
+
+  <CvSection title="Certifications">
+    {cv.certifications.map(cert => (
+      <div class="mb-3">
+        <a href={cert.url} class="font-medium text-ac underline-offset-4 hover:underline" target="_blank" rel="noopener">
+          {cert.name}
+        </a>
+        <span class="text-fg/60"> · {cert.issuer} · {formatDate(cert.date)}</span>
+      </div>
+    ))}
+  </CvSection>
+</Main>
