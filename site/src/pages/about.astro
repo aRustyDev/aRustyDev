@@ -1,0 +1,18 @@
+---
+import { getCollection, render } from "astro:content";
+import Main from "@/layouts/Main.astro";
+
+const aboutEntries = await getCollection("about");
+const entry = aboutEntries[0];
+const { Content } = entry ? await render(entry) : { Content: null };
+---
+
+<Main title="About" pageTitle="About" pageDesc="Who I am and what I do">
+  {Content ? (
+    <article class="prose max-w-none">
+      <Content />
+    </article>
+  ) : (
+    <p>About content coming soon.</p>
+  )}
+</Main>

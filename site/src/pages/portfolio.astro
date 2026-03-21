@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import Main from "@/layouts/Main.astro";
+
+const projects = (await getCollection("portfolio")).sort(
+  (a, b) => a.data.order - b.data.order
+);
+---
+
+<Main title="Portfolio" pageTitle="Portfolio" pageDesc="Selected projects and work">
+  <div class="space-y-6">
+    {projects.map(project => (
+      <div class="rounded border border-bd p-5">
+        <div class="flex items-start justify-between gap-4">
+          <div>
+            <h2 class="text-xl font-semibold">{project.data.title}</h2>
+            <p class="mt-1 text-fg/70">{project.data.description}</p>
+          </div>
+          <div class="flex gap-2">
+            {project.data.url && (
+              <a href={project.data.url} class="text-sm text-ac underline-offset-4 hover:underline" target="_blank" rel="noopener">
+                Live
+              </a>
+            )}
+            {project.data.repo && (
+              <a href={project.data.repo} class="text-sm text-ac underline-offset-4 hover:underline" target="_blank" rel="noopener">
+                Source
+              </a>
+            )}
+          </div>
+        </div>
+        {project.data.tags.length > 0 && (
+          <div class="mt-3 flex gap-2">
+            {project.data.tags.map(tag => (
+              <span class="rounded bg-mt px-2 py-0.5 text-xs text-fg/70">{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+</Main>
