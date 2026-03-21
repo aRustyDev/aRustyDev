@@ -1,0 +1,86 @@
+{
+  "personal": {
+    "name": "Adam",
+    "email": "adam@example.com",
+    "phone": "+1-555-0100",
+    "location": "Remote",
+    "links": {
+      "github": "https://github.com/aRustyDev",
+      "linkedin": "https://linkedin.com/in/arustydev",
+      "website": "https://im.arusty.dev",
+      "blog": "https://blog.arusty.dev"
+    }
+  },
+  "experience": [
+    {
+      "id": "example-senior-swe",
+      "company": "Example Corp",
+      "title": "Senior Software Engineer",
+      "location": "Remote",
+      "start": "2023-01",
+      "end": null,
+      "highlights": [
+        "Led architecture of distributed event processing system",
+        "Reduced deploy times by 60% through CI/CD pipeline optimization"
+      ],
+      "tags": ["backend", "infra"]
+    },
+    {
+      "id": "example-swe",
+      "company": "Startup Inc",
+      "title": "Software Engineer",
+      "location": "New York, NY",
+      "start": "2020-06",
+      "end": "2022-12",
+      "highlights": [
+        "Built real-time data pipeline processing 1M events/day",
+        "Designed and implemented REST API serving 50k requests/min"
+      ],
+      "tags": ["backend", "data"]
+    }
+  ],
+  "education": [
+    {
+      "id": "example-university",
+      "institution": "Example University",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "start": "2016-09",
+      "end": "2020-05",
+      "highlights": []
+    }
+  ],
+  "skills": [
+    {
+      "id": "languages",
+      "category": "Languages",
+      "items": ["Rust", "TypeScript", "Go", "Python"]
+    },
+    {
+      "id": "infrastructure",
+      "category": "Infrastructure",
+      "items": ["AWS", "Terraform", "Docker", "Kubernetes"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "example-oss-tool",
+      "name": "Example OSS Tool",
+      "description": "A CLI tool for automating infrastructure deployments",
+      "url": "https://github.com/aRustyDev/example-tool",
+      "highlights": [
+        "500+ GitHub stars",
+        "Used by 3 production teams internally"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "aws-saa",
+      "name": "AWS Solutions Architect Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2023-06",
+      "url": "https://aws.amazon.com/certification/"
+    }
+  ]
+}
