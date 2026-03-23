@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 
 export default defineConfig({
   test: {
-    include: ["data/**/*.test.ts", "scripts/**/*.test.ts"],
+    include: ["data/**/*.test.ts", "scripts/**/*.test.ts", "readme/**/*.test.ts"],
     passWithNoTests: true,
   },
   resolve: {
