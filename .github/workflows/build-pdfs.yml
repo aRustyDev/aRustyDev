@@ -1,0 +1,60 @@
+name: Build Resume PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "templates/**"
+  workflow_dispatch:
+
+concurrency:
+  group: commit-to-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdfs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install tectonic
+        # DEFERRED: Fallback to latexmk + danteev/texlive Docker image if
+        # tectonic proves unreliable. For now, tectonic is sufficient.
+        run: |
+          curl --proto '=https' --tlsv1.2 -fsSL https://drop-sh.fullyjustified.net | sh
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+
+      - name: Build all PDFs
+        run: scripts/build-all-pdfs.sh
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add site/public/resumes/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push PDFs
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "ci: rebuild resume PDFs"
+          git push
