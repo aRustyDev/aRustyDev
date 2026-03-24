@@ -19,45 +19,45 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
-      stroke-dasharray="155.82299561805374 502.6548245743669"
+      stroke-dasharray="150.79644737231007 502.6548245743669"
       stroke-dashoffset="-206.08847807549043"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="40.21238596594935 502.6548245743669"
-      stroke-dashoffset="-361.91147369354417"
+      stroke-dashoffset="-356.88492544780047"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#555555" stroke-width="24"
       stroke-dasharray="30.159289474462014 502.6548245743669"
-      stroke-dashoffset="-402.1238596594935"
+      stroke-dashoffset="-397.0973114137498"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-432.28314913395553"
+      stroke-dashoffset="-427.25660088821184"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-457.41589036267385"
+      stroke-dashoffset="-452.38934211693015"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999048"
+      stroke-dashoffset="-467.46898685416113"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#e34c26" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-477.5220833456485"
+      stroke-dashoffset="-472.4955350999048"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#1f2328" font-size="13">Rust</text>
     <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">41%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#DA5B0B" />
     <text x="300" y="69" fill="#1f2328" font-size="13">Jupyter Notebook</text>
-    <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">31%</text>
+    <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">30%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="97" fill="#1f2328" font-size="13">Python</text>
     <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">8%</text>
@@ -88,45 +88,45 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
-      stroke-dasharray="155.82299561805374 502.6548245743669"
+      stroke-dasharray="150.79644737231007 502.6548245743669"
       stroke-dashoffset="-206.08847807549043"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="40.21238596594935 502.6548245743669"
-      stroke-dashoffset="-361.91147369354417"
+      stroke-dashoffset="-356.88492544780047"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#555555" stroke-width="24"
       stroke-dasharray="30.159289474462014 502.6548245743669"
-      stroke-dashoffset="-402.1238596594935"
+      stroke-dashoffset="-397.0973114137498"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-432.28314913395553"
+      stroke-dashoffset="-427.25660088821184"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-457.41589036267385"
+      stroke-dashoffset="-452.38934211693015"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999048"
+      stroke-dashoffset="-467.46898685416113"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#e34c26" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-477.5220833456485"
+      stroke-dashoffset="-472.4955350999048"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">Rust</text>
     <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">41%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#DA5B0B" />
     <text x="300" y="69" fill="#e6edf3" font-size="13">Jupyter Notebook</text>
-    <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">31%</text>
+    <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">30%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="97" fill="#e6edf3" font-size="13">Python</text>
     <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">8%</text>
