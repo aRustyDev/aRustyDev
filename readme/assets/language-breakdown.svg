@@ -39,18 +39,18 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="15.079644737231007 502.6548245743669"
+      stroke-dasharray="20.106192982974676 502.6548245743669"
       stroke-dashoffset="-452.38934211693015"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-467.46898685416113"
+      stroke-dashoffset="-472.4955350999048"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#e34c26" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999048"
+      stroke-dashoffset="-477.5220833456485"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#1f2328" font-size="13">Rust</text>
@@ -69,7 +69,7 @@
     <text x="480" y="153" fill="#656d76" font-size="13" text-anchor="end">5%</text>
     <rect x="280" y="170" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="181" fill="#1f2328" font-size="13">TypeScript</text>
-    <text x="480" y="181" fill="#656d76" font-size="13" text-anchor="end">3%</text>
+    <text x="480" y="181" fill="#656d76" font-size="13" text-anchor="end">4%</text>
     <rect x="280" y="198" width="12" height="12" rx="2" fill="#f1e05a" />
     <text x="300" y="209" fill="#1f2328" font-size="13">JavaScript</text>
     <text x="480" y="209" fill="#656d76" font-size="13" text-anchor="end">1%</text>
@@ -108,18 +108,18 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="15.079644737231007 502.6548245743669"
+      stroke-dasharray="20.106192982974676 502.6548245743669"
       stroke-dashoffset="-452.38934211693015"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-467.46898685416113"
+      stroke-dashoffset="-472.4955350999048"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#e34c26" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999048"
+      stroke-dashoffset="-477.5220833456485"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">Rust</text>
@@ -138,7 +138,7 @@
     <text x="480" y="153" fill="#8b949e" font-size="13" text-anchor="end">5%</text>
     <rect x="280" y="170" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="181" fill="#e6edf3" font-size="13">TypeScript</text>
-    <text x="480" y="181" fill="#8b949e" font-size="13" text-anchor="end">3%</text>
+    <text x="480" y="181" fill="#8b949e" font-size="13" text-anchor="end">4%</text>
     <rect x="280" y="198" width="12" height="12" rx="2" fill="#f1e05a" />
     <text x="300" y="209" fill="#e6edf3" font-size="13">JavaScript</text>
     <text x="480" y="209" fill="#8b949e" font-size="13" text-anchor="end">1%</text>
