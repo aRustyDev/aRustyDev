@@ -16,7 +16,6 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 | Repo | Version | Date |
 |------|---------|------|
-| [looms](https://github.com/aRustyDev/looms) | `v0.0.6` | 2026-02-24 |
 | [pre-commit-hooks](https://github.com/aRustyDev/pre-commit-hooks) | `v0.3.0` | 2025-07-08 |
 
 ## 📝 Recent Blog Posts
