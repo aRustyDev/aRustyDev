@@ -44,13 +44,13 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
-      stroke-dasharray="10.053096491487338 502.6548245743669"
+      stroke-dasharray="15.079644737231007 502.6548245743669"
       stroke-dashoffset="-447.36279387118645"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#89e051" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-457.4158903626738"
+      stroke-dashoffset="-462.44243860841743"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#1f2328" font-size="13">Rust</text>
@@ -72,7 +72,7 @@
     <text x="480" y="181" fill="#656d76" font-size="13" text-anchor="end">4%</text>
     <rect x="280" y="198" width="12" height="12" rx="2" fill="#f1e05a" />
     <text x="300" y="209" fill="#1f2328" font-size="13">JavaScript</text>
-    <text x="480" y="209" fill="#656d76" font-size="13" text-anchor="end">2%</text>
+    <text x="480" y="209" fill="#656d76" font-size="13" text-anchor="end">3%</text>
     <rect x="280" y="226" width="12" height="12" rx="2" fill="#89e051" />
     <text x="300" y="237" fill="#1f2328" font-size="13">Shell</text>
     <text x="480" y="237" fill="#656d76" font-size="13" text-anchor="end">1%</text>
@@ -113,13 +113,13 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
-      stroke-dasharray="10.053096491487338 502.6548245743669"
+      stroke-dasharray="15.079644737231007 502.6548245743669"
       stroke-dashoffset="-447.36279387118645"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#89e051" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-457.4158903626738"
+      stroke-dashoffset="-462.44243860841743"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">Rust</text>
@@ -141,7 +141,7 @@
     <text x="480" y="181" fill="#8b949e" font-size="13" text-anchor="end">4%</text>
     <rect x="280" y="198" width="12" height="12" rx="2" fill="#f1e05a" />
     <text x="300" y="209" fill="#e6edf3" font-size="13">JavaScript</text>
-    <text x="480" y="209" fill="#8b949e" font-size="13" text-anchor="end">2%</text>
+    <text x="480" y="209" fill="#8b949e" font-size="13" text-anchor="end">3%</text>
     <rect x="280" y="226" width="12" height="12" rx="2" fill="#89e051" />
     <text x="300" y="237" fill="#e6edf3" font-size="13">Shell</text>
     <text x="480" y="237" fill="#8b949e" font-size="13" text-anchor="end">1%</text>
