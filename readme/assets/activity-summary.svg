@@ -23,7 +23,7 @@
     <text x="463.3333333333333" y="100" fill="#656d76" font-size="12" text-anchor="middle">Issues</text>
     <text x="590.0000000000001" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">34</text>
     <text x="590.0000000000001" y="100" fill="#656d76" font-size="12" text-anchor="middle">Stars</text>
-    <text x="716.6666666666667" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">211</text>
+    <text x="716.6666666666667" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">215</text>
     <text x="716.6666666666667" y="100" fill="#656d76" font-size="12" text-anchor="middle">Repos</text>
   </g>
   <g class="dark">
@@ -41,7 +41,7 @@
     <text x="463.3333333333333" y="100" fill="#8b949e" font-size="12" text-anchor="middle">Issues</text>
     <text x="590.0000000000001" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">34</text>
     <text x="590.0000000000001" y="100" fill="#8b949e" font-size="12" text-anchor="middle">Stars</text>
-    <text x="716.6666666666667" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">211</text>
+    <text x="716.6666666666667" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">215</text>
     <text x="716.6666666666667" y="100" fill="#8b949e" font-size="12" text-anchor="middle">Repos</text>
   </g>
 </svg>

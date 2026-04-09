@@ -12,11 +12,7 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 ![Top Repos](readme/assets/top-repos.svg)
 
-## 🏷️ Recent Releases
 
-| Repo | Version | Date |
-|------|---------|------|
-| [pre-commit-hooks](https://github.com/aRustyDev/pre-commit-hooks) | `v0.3.0` | 2025-07-08 |
 
 ## 📝 Recent Blog Posts
 
