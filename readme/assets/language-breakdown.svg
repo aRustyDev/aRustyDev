@@ -14,28 +14,28 @@
     <text x="20" y="24" fill="#1f2328" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
-      stroke-dasharray="140.74335088082273 502.6548245743669"
+      stroke-dasharray="135.71680263507906 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
       stroke-dasharray="90.47786842338604 502.6548245743669"
-      stroke-dashoffset="-140.74335088082273"
+      stroke-dashoffset="-135.71680263507906"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="90.47786842338604 502.6548245743669"
-      stroke-dashoffset="-231.22121930420877"
+      stroke-dashoffset="-226.1946710584651"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
       stroke-dasharray="70.37167544041137 502.6548245743669"
-      stroke-dashoffset="-321.6990877275948"
+      stroke-dashoffset="-316.6725394818511"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
-      stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-392.0707631680062"
+      stroke-dasharray="30.159289474462014 502.6548245743669"
+      stroke-dashoffset="-387.0442149222625"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
@@ -54,7 +54,7 @@
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#1f2328" font-size="13">Rust</text>
-    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">28%</text>
+    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">27%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="69" fill="#1f2328" font-size="13">Go</text>
     <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">18%</text>
@@ -66,7 +66,7 @@
     <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">14%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="153" fill="#1f2328" font-size="13">Python</text>
-    <text x="480" y="153" fill="#656d76" font-size="13" text-anchor="end">5%</text>
+    <text x="480" y="153" fill="#656d76" font-size="13" text-anchor="end">6%</text>
     <rect x="280" y="170" width="12" height="12" rx="2" fill="#c22d40" />
     <text x="300" y="181" fill="#1f2328" font-size="13">Scala</text>
     <text x="480" y="181" fill="#656d76" font-size="13" text-anchor="end">4%</text>
@@ -83,28 +83,28 @@
     <text x="20" y="24" fill="#e6edf3" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
-      stroke-dasharray="140.74335088082273 502.6548245743669"
+      stroke-dasharray="135.71680263507906 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
       stroke-dasharray="90.47786842338604 502.6548245743669"
-      stroke-dashoffset="-140.74335088082273"
+      stroke-dashoffset="-135.71680263507906"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="90.47786842338604 502.6548245743669"
-      stroke-dashoffset="-231.22121930420877"
+      stroke-dashoffset="-226.1946710584651"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
       stroke-dasharray="70.37167544041137 502.6548245743669"
-      stroke-dashoffset="-321.6990877275948"
+      stroke-dashoffset="-316.6725394818511"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
-      stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-392.0707631680062"
+      stroke-dasharray="30.159289474462014 502.6548245743669"
+      stroke-dashoffset="-387.0442149222625"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
@@ -123,7 +123,7 @@
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">Rust</text>
-    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">28%</text>
+    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">27%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="69" fill="#e6edf3" font-size="13">Go</text>
     <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">18%</text>
@@ -135,7 +135,7 @@
     <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">14%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="153" fill="#e6edf3" font-size="13">Python</text>
-    <text x="480" y="153" fill="#8b949e" font-size="13" text-anchor="end">5%</text>
+    <text x="480" y="153" fill="#8b949e" font-size="13" text-anchor="end">6%</text>
     <rect x="280" y="170" width="12" height="12" rx="2" fill="#c22d40" />
     <text x="300" y="181" fill="#e6edf3" font-size="13">Scala</text>
     <text x="480" y="181" fill="#8b949e" font-size="13" text-anchor="end">4%</text>
