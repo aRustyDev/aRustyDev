@@ -29,28 +29,28 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="60.31857894892403 502.6548245743669"
+      stroke-dasharray="65.3451271946677 502.6548245743669"
       stroke-dashoffset="-296.56634649887644"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="45.23893421169302 502.6548245743669"
-      stroke-dashoffset="-356.88492544780047"
+      stroke-dashoffset="-361.91147369354417"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-402.1238596594935"
+      stroke-dashoffset="-407.1504079052372"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-427.2566008882119"
+      stroke-dashoffset="-432.2831491339556"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#555555" stroke-width="24"
       stroke-dasharray="10.053096491487338 502.6548245743669"
-      stroke-dashoffset="-442.33624562544287"
+      stroke-dashoffset="-447.36279387118657"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#1f2328" font-size="13">Rust</text>
@@ -63,7 +63,7 @@
     <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">15%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="125" fill="#1f2328" font-size="13">TypeScript</text>
-    <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">12%</text>
+    <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">13%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#ec915c" />
     <text x="300" y="153" fill="#1f2328" font-size="13">Zig</text>
     <text x="480" y="153" fill="#656d76" font-size="13" text-anchor="end">9%</text>
@@ -98,28 +98,28 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="60.31857894892403 502.6548245743669"
+      stroke-dasharray="65.3451271946677 502.6548245743669"
       stroke-dashoffset="-296.56634649887644"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="45.23893421169302 502.6548245743669"
-      stroke-dashoffset="-356.88492544780047"
+      stroke-dashoffset="-361.91147369354417"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-402.1238596594935"
+      stroke-dashoffset="-407.1504079052372"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-427.2566008882119"
+      stroke-dashoffset="-432.2831491339556"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#555555" stroke-width="24"
       stroke-dasharray="10.053096491487338 502.6548245743669"
-      stroke-dashoffset="-442.33624562544287"
+      stroke-dashoffset="-447.36279387118657"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">Rust</text>
@@ -132,7 +132,7 @@
     <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">15%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="125" fill="#e6edf3" font-size="13">TypeScript</text>
-    <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">12%</text>
+    <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">13%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#ec915c" />
     <text x="300" y="153" fill="#e6edf3" font-size="13">Zig</text>
     <text x="480" y="153" fill="#8b949e" font-size="13" text-anchor="end">9%</text>
