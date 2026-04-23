@@ -12,7 +12,11 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 ![Top Repos](readme/assets/top-repos.svg)
 
+## 🏷️ Recent Releases
 
+| Repo | Version | Date |
+|------|---------|------|
+| [forge](https://github.com/aRustyDev/forge) | `v1.0.0` | 2026-04-22 |
 
 ## 📝 Recent Blog Posts
 
