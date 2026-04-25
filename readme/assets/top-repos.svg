@@ -14,45 +14,45 @@
     <text x="20" y="24" fill="#1f2328" font-size="16" font-weight="600">Most Active Repositories</text>
     <rect x="20" y="40" width="375" height="80" rx="6"
       fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <text x="32" y="62" fill="#0969da" font-size="14" font-weight="600">aRustyDev</text>
-    <text x="32" y="82" fill="#656d76" font-size="11">GitHub Profile README</text>
+    <text x="32" y="62" fill="#0969da" font-size="14" font-weight="600">forge</text>
+    <text x="32" y="82" fill="#656d76" font-size="11">Self-hosted resume builder and job application ...</text>
     <circle cx="32" cy="102" r="5" fill="#3178c6" />
     <text x="42" y="106" fill="#656d76" font-size="11">TypeScript</text>
     <text x="383" y="106" fill="#656d76" font-size="11" text-anchor="end">★ 0</text>
     <rect x="405" y="40" width="375" height="80" rx="6"
       fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <text x="417" y="62" fill="#0969da" font-size="14" font-weight="600">forge</text>
-    <text x="417" y="82" fill="#656d76" font-size="11">Self-hosted resume builder and job application ...</text>
+    <text x="417" y="62" fill="#0969da" font-size="14" font-weight="600">looms</text>
+    <text x="417" y="82" fill="#656d76" font-size="11">A WebUI for managing & analysis of Beads, GasTo...</text>
     <circle cx="417" cy="102" r="5" fill="#3178c6" />
     <text x="427" y="106" fill="#656d76" font-size="11">TypeScript</text>
     <text x="768" y="106" fill="#656d76" font-size="11" text-anchor="end">★ 0</text>
     <rect x="20" y="130" width="375" height="80" rx="6"
       fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <text x="32" y="152" fill="#0969da" font-size="14" font-weight="600">quine</text>
-    <text x="32" y="172" fill="#656d76" font-size="11">Quine • a streaming graph • https://quine.io • ...</text>
-    <circle cx="32" cy="192" r="5" fill="#c22d40" />
-    <text x="42" y="196" fill="#656d76" font-size="11">Scala</text>
+    <text x="32" y="152" fill="#0969da" font-size="14" font-weight="600">aRustyDev</text>
+    <text x="32" y="172" fill="#656d76" font-size="11">GitHub Profile README</text>
+    <circle cx="32" cy="192" r="5" fill="#3178c6" />
+    <text x="42" y="196" fill="#656d76" font-size="11">TypeScript</text>
     <text x="383" y="196" fill="#656d76" font-size="11" text-anchor="end">★ 0</text>
     <rect x="405" y="130" width="375" height="80" rx="6"
       fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <text x="417" y="152" fill="#0969da" font-size="14" font-weight="600">load-secrets-action</text>
-    <text x="417" y="172" fill="#656d76" font-size="11">Load secrets from 1Password into your GitHub Ac...</text>
-    <circle cx="417" cy="192" r="5" fill="#3178c6" />
-    <text x="427" y="196" fill="#656d76" font-size="11">TypeScript</text>
+    <text x="417" y="152" fill="#0969da" font-size="14" font-weight="600">quine</text>
+    <text x="417" y="172" fill="#656d76" font-size="11">Quine • a streaming graph • https://quine.io • ...</text>
+    <circle cx="417" cy="192" r="5" fill="#c22d40" />
+    <text x="427" y="196" fill="#656d76" font-size="11">Scala</text>
     <text x="768" y="196" fill="#656d76" font-size="11" text-anchor="end">★ 0</text>
     <rect x="20" y="220" width="375" height="80" rx="6"
       fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <text x="32" y="242" fill="#0969da" font-size="14" font-weight="600">gyres</text>
-    <text x="32" y="262" fill="#656d76" font-size="11">A Rust agent harness — general-purpose feedback...</text>
-    <circle cx="32" cy="282" r="5" fill="#dea584" />
-    <text x="42" y="286" fill="#656d76" font-size="11">Rust</text>
+    <text x="32" y="242" fill="#0969da" font-size="14" font-weight="600">load-secrets-action</text>
+    <text x="32" y="262" fill="#656d76" font-size="11">Load secrets from 1Password into your GitHub Ac...</text>
+    <circle cx="32" cy="282" r="5" fill="#3178c6" />
+    <text x="42" y="286" fill="#656d76" font-size="11">TypeScript</text>
     <text x="383" y="286" fill="#656d76" font-size="11" text-anchor="end">★ 0</text>
     <rect x="405" y="220" width="375" height="80" rx="6"
       fill="#f6f8fa" stroke="#d0d7de" stroke-width="1" />
-    <text x="417" y="242" fill="#0969da" font-size="14" font-weight="600">landing-zone</text>
-    <text x="417" y="262" fill="#656d76" font-size="11">My landing page for arusty.dev (forked from Ast...</text>
-    <circle cx="417" cy="282" r="5" fill="#ff5a03" />
-    <text x="427" y="286" fill="#656d76" font-size="11">Astro</text>
+    <text x="417" y="242" fill="#0969da" font-size="14" font-weight="600">gyres</text>
+    <text x="417" y="262" fill="#656d76" font-size="11">A Rust agent harness — general-purpose feedback...</text>
+    <circle cx="417" cy="282" r="5" fill="#dea584" />
+    <text x="427" y="286" fill="#656d76" font-size="11">Rust</text>
     <text x="768" y="286" fill="#656d76" font-size="11" text-anchor="end">★ 0</text>
   </g>
   <g class="dark">
@@ -61,45 +61,45 @@
     <text x="20" y="24" fill="#e6edf3" font-size="16" font-weight="600">Most Active Repositories</text>
     <rect x="20" y="40" width="375" height="80" rx="6"
       fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="32" y="62" fill="#58a6ff" font-size="14" font-weight="600">aRustyDev</text>
-    <text x="32" y="82" fill="#8b949e" font-size="11">GitHub Profile README</text>
+    <text x="32" y="62" fill="#58a6ff" font-size="14" font-weight="600">forge</text>
+    <text x="32" y="82" fill="#8b949e" font-size="11">Self-hosted resume builder and job application ...</text>
     <circle cx="32" cy="102" r="5" fill="#3178c6" />
     <text x="42" y="106" fill="#8b949e" font-size="11">TypeScript</text>
     <text x="383" y="106" fill="#8b949e" font-size="11" text-anchor="end">★ 0</text>
     <rect x="405" y="40" width="375" height="80" rx="6"
       fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="417" y="62" fill="#58a6ff" font-size="14" font-weight="600">forge</text>
-    <text x="417" y="82" fill="#8b949e" font-size="11">Self-hosted resume builder and job application ...</text>
+    <text x="417" y="62" fill="#58a6ff" font-size="14" font-weight="600">looms</text>
+    <text x="417" y="82" fill="#8b949e" font-size="11">A WebUI for managing & analysis of Beads, GasTo...</text>
     <circle cx="417" cy="102" r="5" fill="#3178c6" />
     <text x="427" y="106" fill="#8b949e" font-size="11">TypeScript</text>
     <text x="768" y="106" fill="#8b949e" font-size="11" text-anchor="end">★ 0</text>
     <rect x="20" y="130" width="375" height="80" rx="6"
       fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="32" y="152" fill="#58a6ff" font-size="14" font-weight="600">quine</text>
-    <text x="32" y="172" fill="#8b949e" font-size="11">Quine • a streaming graph • https://quine.io • ...</text>
-    <circle cx="32" cy="192" r="5" fill="#c22d40" />
-    <text x="42" y="196" fill="#8b949e" font-size="11">Scala</text>
+    <text x="32" y="152" fill="#58a6ff" font-size="14" font-weight="600">aRustyDev</text>
+    <text x="32" y="172" fill="#8b949e" font-size="11">GitHub Profile README</text>
+    <circle cx="32" cy="192" r="5" fill="#3178c6" />
+    <text x="42" y="196" fill="#8b949e" font-size="11">TypeScript</text>
     <text x="383" y="196" fill="#8b949e" font-size="11" text-anchor="end">★ 0</text>
     <rect x="405" y="130" width="375" height="80" rx="6"
       fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="417" y="152" fill="#58a6ff" font-size="14" font-weight="600">load-secrets-action</text>
-    <text x="417" y="172" fill="#8b949e" font-size="11">Load secrets from 1Password into your GitHub Ac...</text>
-    <circle cx="417" cy="192" r="5" fill="#3178c6" />
-    <text x="427" y="196" fill="#8b949e" font-size="11">TypeScript</text>
+    <text x="417" y="152" fill="#58a6ff" font-size="14" font-weight="600">quine</text>
+    <text x="417" y="172" fill="#8b949e" font-size="11">Quine • a streaming graph • https://quine.io • ...</text>
+    <circle cx="417" cy="192" r="5" fill="#c22d40" />
+    <text x="427" y="196" fill="#8b949e" font-size="11">Scala</text>
     <text x="768" y="196" fill="#8b949e" font-size="11" text-anchor="end">★ 0</text>
     <rect x="20" y="220" width="375" height="80" rx="6"
       fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="32" y="242" fill="#58a6ff" font-size="14" font-weight="600">gyres</text>
-    <text x="32" y="262" fill="#8b949e" font-size="11">A Rust agent harness — general-purpose feedback...</text>
-    <circle cx="32" cy="282" r="5" fill="#dea584" />
-    <text x="42" y="286" fill="#8b949e" font-size="11">Rust</text>
+    <text x="32" y="242" fill="#58a6ff" font-size="14" font-weight="600">load-secrets-action</text>
+    <text x="32" y="262" fill="#8b949e" font-size="11">Load secrets from 1Password into your GitHub Ac...</text>
+    <circle cx="32" cy="282" r="5" fill="#3178c6" />
+    <text x="42" y="286" fill="#8b949e" font-size="11">TypeScript</text>
     <text x="383" y="286" fill="#8b949e" font-size="11" text-anchor="end">★ 0</text>
     <rect x="405" y="220" width="375" height="80" rx="6"
       fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="417" y="242" fill="#58a6ff" font-size="14" font-weight="600">landing-zone</text>
-    <text x="417" y="262" fill="#8b949e" font-size="11">My landing page for arusty.dev (forked from Ast...</text>
-    <circle cx="417" cy="282" r="5" fill="#ff5a03" />
-    <text x="427" y="286" fill="#8b949e" font-size="11">Astro</text>
+    <text x="417" y="242" fill="#58a6ff" font-size="14" font-weight="600">gyres</text>
+    <text x="417" y="262" fill="#8b949e" font-size="11">A Rust agent harness — general-purpose feedback...</text>
+    <circle cx="417" cy="282" r="5" fill="#dea584" />
+    <text x="427" y="286" fill="#8b949e" font-size="11">Rust</text>
     <text x="768" y="286" fill="#8b949e" font-size="11" text-anchor="end">★ 0</text>
   </g>
 </svg>
