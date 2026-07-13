@@ -13,13 +13,13 @@
     
     <text x="20" y="30" fill="#1f2328" font-size="16" font-weight="600">GitHub Activity</text>
     <line x1="20" y1="42" x2="780" y2="42" stroke="#d0d7de" stroke-width="1" />
-    <text x="83.33333333333334" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">3.3k</text>
+    <text x="83.33333333333334" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">3.2k</text>
     <text x="83.33333333333334" y="100" fill="#656d76" font-size="12" text-anchor="middle">Commits</text>
-    <text x="210.00000000000003" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">676</text>
+    <text x="210.00000000000003" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">669</text>
     <text x="210.00000000000003" y="100" fill="#656d76" font-size="12" text-anchor="middle">PRs</text>
     <text x="336.6666666666667" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">4</text>
     <text x="336.6666666666667" y="100" fill="#656d76" font-size="12" text-anchor="middle">Reviews</text>
-    <text x="463.3333333333333" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">1.2k</text>
+    <text x="463.3333333333333" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">1.0k</text>
     <text x="463.3333333333333" y="100" fill="#656d76" font-size="12" text-anchor="middle">Issues</text>
     <text x="590.0000000000001" y="75" fill="#1f2328" font-size="22" font-weight="700" text-anchor="middle">37</text>
     <text x="590.0000000000001" y="100" fill="#656d76" font-size="12" text-anchor="middle">Stars</text>
@@ -31,13 +31,13 @@
     
     <text x="20" y="30" fill="#e6edf3" font-size="16" font-weight="600">GitHub Activity</text>
     <line x1="20" y1="42" x2="780" y2="42" stroke="#30363d" stroke-width="1" />
-    <text x="83.33333333333334" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">3.3k</text>
+    <text x="83.33333333333334" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">3.2k</text>
     <text x="83.33333333333334" y="100" fill="#8b949e" font-size="12" text-anchor="middle">Commits</text>
-    <text x="210.00000000000003" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">676</text>
+    <text x="210.00000000000003" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">669</text>
     <text x="210.00000000000003" y="100" fill="#8b949e" font-size="12" text-anchor="middle">PRs</text>
     <text x="336.6666666666667" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">4</text>
     <text x="336.6666666666667" y="100" fill="#8b949e" font-size="12" text-anchor="middle">Reviews</text>
-    <text x="463.3333333333333" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">1.2k</text>
+    <text x="463.3333333333333" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">1.0k</text>
     <text x="463.3333333333333" y="100" fill="#8b949e" font-size="12" text-anchor="middle">Issues</text>
     <text x="590.0000000000001" y="75" fill="#e6edf3" font-size="22" font-weight="700" text-anchor="middle">37</text>
     <text x="590.0000000000001" y="100" fill="#8b949e" font-size="12" text-anchor="middle">Stars</text>
