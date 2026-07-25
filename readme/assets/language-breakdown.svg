@@ -13,63 +13,63 @@
     
     <text x="20" y="24" fill="#1f2328" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
-      stroke="#dea584" stroke-width="24"
-      stroke-dasharray="130.6902543893354 502.6548245743669"
+      stroke="#3178c6" stroke-width="24"
+      stroke-dasharray="125.66370614359172 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
-      stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="110.58406140636072 502.6548245743669"
-      stroke-dashoffset="-130.6902543893354"
+      stroke="#dea584" stroke-width="24"
+      stroke-dasharray="120.63715789784806 502.6548245743669"
+      stroke-dashoffset="-125.66370614359172"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
-      stroke-dasharray="75.39822368615503 502.6548245743669"
-      stroke-dashoffset="-241.2743157956961"
+      stroke-dasharray="70.37167544041137 502.6548245743669"
+      stroke-dashoffset="-246.30086404143978"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
-      stroke-dasharray="65.3451271946677 502.6548245743669"
+      stroke-dasharray="60.31857894892403 502.6548245743669"
       stroke-dashoffset="-316.6725394818511"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
-      stroke-dasharray="40.21238596594935 502.6548245743669"
-      stroke-dashoffset="-382.01766667651884"
+      stroke-dasharray="35.18583772020568 502.6548245743669"
+      stroke-dashoffset="-376.99111843077515"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
-      stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-422.2300526424682"
+      stroke-dasharray="30.159289474462014 502.6548245743669"
+      stroke-dashoffset="-412.1769561509808"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-447.36279387118657"
+      stroke-dashoffset="-442.3362456254428"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#555555" stroke-width="24"
       stroke-dasharray="10.053096491487338 502.6548245743669"
-      stroke-dashoffset="-462.44243860841755"
+      stroke-dashoffset="-457.41589036267385"
       transform="rotate(-90 125 125)" />
-    <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
-    <text x="300" y="41" fill="#1f2328" font-size="13">Rust</text>
-    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">26%</text>
-    <rect x="280" y="58" width="12" height="12" rx="2" fill="#3178c6" />
-    <text x="300" y="69" fill="#1f2328" font-size="13">TypeScript</text>
-    <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">22%</text>
+    <rect x="280" y="30" width="12" height="12" rx="2" fill="#3178c6" />
+    <text x="300" y="41" fill="#1f2328" font-size="13">TypeScript</text>
+    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">25%</text>
+    <rect x="280" y="58" width="12" height="12" rx="2" fill="#dea584" />
+    <text x="300" y="69" fill="#1f2328" font-size="13">Rust</text>
+    <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">24%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="97" fill="#1f2328" font-size="13">Go</text>
-    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">15%</text>
+    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">14%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#DA5B0B" />
     <text x="300" y="125" fill="#1f2328" font-size="13">Jupyter Notebook</text>
-    <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">13%</text>
+    <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">12%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#ec915c" />
     <text x="300" y="153" fill="#1f2328" font-size="13">Zig</text>
-    <text x="480" y="153" fill="#656d76" font-size="13" text-anchor="end">8%</text>
+    <text x="480" y="153" fill="#656d76" font-size="13" text-anchor="end">7%</text>
     <rect x="280" y="170" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="181" fill="#1f2328" font-size="13">Python</text>
-    <text x="480" y="181" fill="#656d76" font-size="13" text-anchor="end">5%</text>
+    <text x="480" y="181" fill="#656d76" font-size="13" text-anchor="end">6%</text>
     <rect x="280" y="198" width="12" height="12" rx="2" fill="#c22d40" />
     <text x="300" y="209" fill="#1f2328" font-size="13">Scala</text>
     <text x="480" y="209" fill="#656d76" font-size="13" text-anchor="end">3%</text>
@@ -82,63 +82,63 @@
     
     <text x="20" y="24" fill="#e6edf3" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
-      stroke="#dea584" stroke-width="24"
-      stroke-dasharray="130.6902543893354 502.6548245743669"
+      stroke="#3178c6" stroke-width="24"
+      stroke-dasharray="125.66370614359172 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
-      stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="110.58406140636072 502.6548245743669"
-      stroke-dashoffset="-130.6902543893354"
+      stroke="#dea584" stroke-width="24"
+      stroke-dasharray="120.63715789784806 502.6548245743669"
+      stroke-dashoffset="-125.66370614359172"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
-      stroke-dasharray="75.39822368615503 502.6548245743669"
-      stroke-dashoffset="-241.2743157956961"
+      stroke-dasharray="70.37167544041137 502.6548245743669"
+      stroke-dashoffset="-246.30086404143978"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
-      stroke-dasharray="65.3451271946677 502.6548245743669"
+      stroke-dasharray="60.31857894892403 502.6548245743669"
       stroke-dashoffset="-316.6725394818511"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
-      stroke-dasharray="40.21238596594935 502.6548245743669"
-      stroke-dashoffset="-382.01766667651884"
+      stroke-dasharray="35.18583772020568 502.6548245743669"
+      stroke-dashoffset="-376.99111843077515"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
-      stroke-dasharray="25.132741228718345 502.6548245743669"
-      stroke-dashoffset="-422.2300526424682"
+      stroke-dasharray="30.159289474462014 502.6548245743669"
+      stroke-dashoffset="-412.1769561509808"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-447.36279387118657"
+      stroke-dashoffset="-442.3362456254428"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#555555" stroke-width="24"
       stroke-dasharray="10.053096491487338 502.6548245743669"
-      stroke-dashoffset="-462.44243860841755"
+      stroke-dashoffset="-457.41589036267385"
       transform="rotate(-90 125 125)" />
-    <rect x="280" y="30" width="12" height="12" rx="2" fill="#dea584" />
-    <text x="300" y="41" fill="#e6edf3" font-size="13">Rust</text>
-    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">26%</text>
-    <rect x="280" y="58" width="12" height="12" rx="2" fill="#3178c6" />
-    <text x="300" y="69" fill="#e6edf3" font-size="13">TypeScript</text>
-    <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">22%</text>
+    <rect x="280" y="30" width="12" height="12" rx="2" fill="#3178c6" />
+    <text x="300" y="41" fill="#e6edf3" font-size="13">TypeScript</text>
+    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">25%</text>
+    <rect x="280" y="58" width="12" height="12" rx="2" fill="#dea584" />
+    <text x="300" y="69" fill="#e6edf3" font-size="13">Rust</text>
+    <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">24%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="97" fill="#e6edf3" font-size="13">Go</text>
-    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">15%</text>
+    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">14%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#DA5B0B" />
     <text x="300" y="125" fill="#e6edf3" font-size="13">Jupyter Notebook</text>
-    <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">13%</text>
+    <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">12%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#ec915c" />
     <text x="300" y="153" fill="#e6edf3" font-size="13">Zig</text>
-    <text x="480" y="153" fill="#8b949e" font-size="13" text-anchor="end">8%</text>
+    <text x="480" y="153" fill="#8b949e" font-size="13" text-anchor="end">7%</text>
     <rect x="280" y="170" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="181" fill="#e6edf3" font-size="13">Python</text>
-    <text x="480" y="181" fill="#8b949e" font-size="13" text-anchor="end">5%</text>
+    <text x="480" y="181" fill="#8b949e" font-size="13" text-anchor="end">6%</text>
     <rect x="280" y="198" width="12" height="12" rx="2" fill="#c22d40" />
     <text x="300" y="209" fill="#e6edf3" font-size="13">Scala</text>
     <text x="480" y="209" fill="#8b949e" font-size="13" text-anchor="end">3%</text>
