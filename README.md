@@ -16,8 +16,8 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 | Repo | Version | Date |
 |------|---------|------|
+| [plane](https://github.com/aRustyDev/plane) | `v1.4.1` | 2026-07-28 |
 | [forge](https://github.com/aRustyDev/forge) | `v1.0.0` | 2026-04-22 |
-| [looms](https://github.com/aRustyDev/looms) | `v0.0.6` | 2026-02-24 |
 
 ## 📝 Recent Blog Posts
 
