@@ -16,6 +16,7 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 | Repo | Version | Date |
 |------|---------|------|
+| [external-dns-cloudflare-zerotrust-provider](https://github.com/aRustyDev/external-dns-cloudflare-zerotrust-provider) | `v0.1.0` | 2026-07-28 |
 | [plane](https://github.com/aRustyDev/plane) | `v1.4.1` | 2026-07-28 |
 | [forge](https://github.com/aRustyDev/forge) | `v1.0.0` | 2026-04-22 |
 
