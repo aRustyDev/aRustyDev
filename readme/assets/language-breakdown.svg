@@ -14,18 +14,18 @@
     <text x="20" y="24" fill="#1f2328" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="125.66370614359172 502.6548245743669"
+      stroke-dasharray="120.63715789784806 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
       stroke-dasharray="120.63715789784806 502.6548245743669"
-      stroke-dashoffset="-125.66370614359172"
+      stroke-dashoffset="-120.63715789784806"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
-      stroke-dasharray="70.37167544041137 502.6548245743669"
-      stroke-dashoffset="-246.30086404143978"
+      stroke-dasharray="75.39822368615503 502.6548245743669"
+      stroke-dashoffset="-241.2743157956961"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
@@ -54,13 +54,13 @@
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="41" fill="#1f2328" font-size="13">TypeScript</text>
-    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">25%</text>
+    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">24%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="69" fill="#1f2328" font-size="13">Rust</text>
     <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">24%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="97" fill="#1f2328" font-size="13">Go</text>
-    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">14%</text>
+    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">15%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#DA5B0B" />
     <text x="300" y="125" fill="#1f2328" font-size="13">Jupyter Notebook</text>
     <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">12%</text>
@@ -83,18 +83,18 @@
     <text x="20" y="24" fill="#e6edf3" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="125.66370614359172 502.6548245743669"
+      stroke-dasharray="120.63715789784806 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
       stroke-dasharray="120.63715789784806 502.6548245743669"
-      stroke-dashoffset="-125.66370614359172"
+      stroke-dashoffset="-120.63715789784806"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
-      stroke-dasharray="70.37167544041137 502.6548245743669"
-      stroke-dashoffset="-246.30086404143978"
+      stroke-dasharray="75.39822368615503 502.6548245743669"
+      stroke-dashoffset="-241.2743157956961"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
@@ -123,13 +123,13 @@
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">TypeScript</text>
-    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">25%</text>
+    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">24%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="69" fill="#e6edf3" font-size="13">Rust</text>
     <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">24%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="97" fill="#e6edf3" font-size="13">Go</text>
-    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">14%</text>
+    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">15%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#DA5B0B" />
     <text x="300" y="125" fill="#e6edf3" font-size="13">Jupyter Notebook</text>
     <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">12%</text>
