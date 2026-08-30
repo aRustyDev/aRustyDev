@@ -14,53 +14,53 @@
     <text x="20" y="24" fill="#1f2328" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f34b7d" stroke-width="24"
-      stroke-dasharray="140.74335088082273 502.6548245743669"
+      stroke-dasharray="135.71680263507906 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
       stroke-dasharray="90.47786842338604 502.6548245743669"
-      stroke-dashoffset="-140.74335088082273"
+      stroke-dashoffset="-135.71680263507906"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
-      stroke-dasharray="75.39822368615503 502.6548245743669"
-      stroke-dashoffset="-231.22121930420877"
+      stroke-dasharray="70.37167544041137 502.6548245743669"
+      stroke-dashoffset="-226.1946710584651"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
       stroke-dasharray="65.3451271946677 502.6548245743669"
-      stroke-dashoffset="-306.61944299036384"
+      stroke-dashoffset="-296.56634649887644"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="50.26548245743669 502.6548245743669"
-      stroke-dashoffset="-371.96457018503156"
+      stroke-dashoffset="-361.91147369354417"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="30.159289474462014 502.6548245743669"
-      stroke-dashoffset="-422.23005264246825"
+      stroke-dashoffset="-412.17695615098086"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="20.106192982974676 502.6548245743669"
-      stroke-dashoffset="-452.38934211693027"
+      stroke-dashoffset="-442.33624562544287"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.49553509990494"
+      stroke-dashoffset="-462.44243860841755"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#f34b7d" />
     <text x="300" y="41" fill="#1f2328" font-size="13">C++</text>
-    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">28%</text>
+    <text x="480" y="41" fill="#656d76" font-size="13" text-anchor="end">27%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="69" fill="#1f2328" font-size="13">TypeScript</text>
     <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">18%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="97" fill="#1f2328" font-size="13">Go</text>
-    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">15%</text>
+    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">14%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="125" fill="#1f2328" font-size="13">Rust</text>
     <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">13%</text>
@@ -83,53 +83,53 @@
     <text x="20" y="24" fill="#e6edf3" font-size="16" font-weight="600">Languages</text>
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f34b7d" stroke-width="24"
-      stroke-dasharray="140.74335088082273 502.6548245743669"
+      stroke-dasharray="135.71680263507906 502.6548245743669"
       stroke-dashoffset="0"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
       stroke-dasharray="90.47786842338604 502.6548245743669"
-      stroke-dashoffset="-140.74335088082273"
+      stroke-dashoffset="-135.71680263507906"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
-      stroke-dasharray="75.39822368615503 502.6548245743669"
-      stroke-dashoffset="-231.22121930420877"
+      stroke-dasharray="70.37167544041137 502.6548245743669"
+      stroke-dashoffset="-226.1946710584651"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
       stroke-dasharray="65.3451271946677 502.6548245743669"
-      stroke-dashoffset="-306.61944299036384"
+      stroke-dashoffset="-296.56634649887644"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="50.26548245743669 502.6548245743669"
-      stroke-dashoffset="-371.96457018503156"
+      stroke-dashoffset="-361.91147369354417"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="30.159289474462014 502.6548245743669"
-      stroke-dashoffset="-422.23005264246825"
+      stroke-dashoffset="-412.17695615098086"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="20.106192982974676 502.6548245743669"
-      stroke-dashoffset="-452.38934211693027"
+      stroke-dashoffset="-442.33624562544287"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.49553509990494"
+      stroke-dashoffset="-462.44243860841755"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#f34b7d" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">C++</text>
-    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">28%</text>
+    <text x="480" y="41" fill="#8b949e" font-size="13" text-anchor="end">27%</text>
     <rect x="280" y="58" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="69" fill="#e6edf3" font-size="13">TypeScript</text>
     <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">18%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="97" fill="#e6edf3" font-size="13">Go</text>
-    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">15%</text>
+    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">14%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="125" fill="#e6edf3" font-size="13">Rust</text>
     <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">13%</text>
