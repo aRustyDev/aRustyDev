@@ -16,6 +16,7 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 | Repo | Version | Date |
 |------|---------|------|
+| [plane](https://github.com/aRustyDev/plane) | `v1.4.3` | 2026-08-05 |
 | [external-dns-cloudflare-zerotrust-provider](https://github.com/aRustyDev/external-dns-cloudflare-zerotrust-provider) | `v0.3.0` | 2026-07-29 |
 
 ## 📝 Recent Blog Posts
