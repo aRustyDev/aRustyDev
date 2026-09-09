@@ -24,33 +24,33 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="80.4247719318987 502.6548245743669"
+      stroke-dasharray="85.45132017764237 502.6548245743669"
       stroke-dashoffset="-231.22121930420877"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
       stroke-dasharray="65.3451271946677 502.6548245743669"
-      stroke-dashoffset="-311.6459912361075"
+      stroke-dashoffset="-316.6725394818511"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="50.26548245743669 502.6548245743669"
-      stroke-dashoffset="-376.99111843077515"
+      stroke-dashoffset="-382.01766667651884"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="30.159289474462014 502.6548245743669"
-      stroke-dashoffset="-427.25660088821184"
+      stroke-dashoffset="-432.28314913395553"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-457.41589036267385"
+      stroke-dashoffset="-462.44243860841755"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999048"
+      stroke-dashoffset="-477.5220833456485"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#f34b7d" />
     <text x="300" y="41" fill="#1f2328" font-size="13">C++</text>
@@ -60,7 +60,7 @@
     <text x="480" y="69" fill="#656d76" font-size="13" text-anchor="end">22%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="97" fill="#1f2328" font-size="13">TypeScript</text>
-    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">16%</text>
+    <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">17%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="125" fill="#1f2328" font-size="13">Go</text>
     <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">13%</text>
@@ -93,33 +93,33 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3178c6" stroke-width="24"
-      stroke-dasharray="80.4247719318987 502.6548245743669"
+      stroke-dasharray="85.45132017764237 502.6548245743669"
       stroke-dashoffset="-231.22121930420877"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#00ADD8" stroke-width="24"
       stroke-dasharray="65.3451271946677 502.6548245743669"
-      stroke-dashoffset="-311.6459912361075"
+      stroke-dashoffset="-316.6725394818511"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="50.26548245743669 502.6548245743669"
-      stroke-dashoffset="-376.99111843077515"
+      stroke-dashoffset="-382.01766667651884"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="30.159289474462014 502.6548245743669"
-      stroke-dashoffset="-427.25660088821184"
+      stroke-dashoffset="-432.28314913395553"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="15.079644737231007 502.6548245743669"
-      stroke-dashoffset="-457.41589036267385"
+      stroke-dashoffset="-462.44243860841755"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#c22d40" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999048"
+      stroke-dashoffset="-477.5220833456485"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#f34b7d" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">C++</text>
@@ -129,7 +129,7 @@
     <text x="480" y="69" fill="#8b949e" font-size="13" text-anchor="end">22%</text>
     <rect x="280" y="86" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="97" fill="#e6edf3" font-size="13">TypeScript</text>
-    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">16%</text>
+    <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">17%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#00ADD8" />
     <text x="300" y="125" fill="#e6edf3" font-size="13">Go</text>
     <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">13%</text>
