@@ -16,8 +16,8 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 | Repo | Version | Date |
 |------|---------|------|
+| [KLayoutClaw-dev](https://github.com/aRustyDev/KLayoutClaw-dev) | `v0.6.0` | 2026-09-17 |
 | [plane](https://github.com/aRustyDev/plane) | `v1.4.3` | 2026-08-05 |
-| [external-dns-cloudflare-zerotrust-provider](https://github.com/aRustyDev/external-dns-cloudflare-zerotrust-provider) | `v0.3.0` | 2026-07-29 |
 
 ## 📝 Recent Blog Posts
 
