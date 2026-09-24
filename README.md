@@ -12,11 +12,7 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 ![Top Repos](readme/assets/top-repos.svg)
 
-## 🏷️ Recent Releases
 
-| Repo | Version | Date |
-|------|---------|------|
-| [KLayoutClaw-dev](https://github.com/aRustyDev/KLayoutClaw-dev) | `v0.6.0` | 2026-09-17 |
 
 ## 📝 Recent Blog Posts
 
