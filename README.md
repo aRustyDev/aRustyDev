@@ -12,7 +12,11 @@ Software engineer building things with Rust, TypeScript, and Go.
 
 ![Top Repos](readme/assets/top-repos.svg)
 
+## 🏷️ Recent Releases
 
+| Repo | Version | Date |
+|------|---------|------|
+| [plane](https://github.com/aRustyDev/plane) | `v1.4.3` | 2026-08-05 |
 
 ## 📝 Recent Blog Posts
 
