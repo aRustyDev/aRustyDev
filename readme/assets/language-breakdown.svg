@@ -29,28 +29,28 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
-      stroke-dasharray="75.39822368615503 502.6548245743669"
+      stroke-dasharray="80.4247719318987 502.6548245743669"
       stroke-dashoffset="-291.5397982531328"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="75.39822368615503 502.6548245743669"
-      stroke-dashoffset="-366.93802193928786"
+      stroke-dashoffset="-371.9645701850315"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="20.106192982974676 502.6548245743669"
-      stroke-dashoffset="-442.33624562544287"
+      stroke-dashoffset="-447.36279387118657"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="10.053096491487338 502.6548245743669"
-      stroke-dashoffset="-462.44243860841755"
+      stroke-dashoffset="-467.46898685416124"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999049"
+      stroke-dashoffset="-477.5220833456486"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="41" fill="#1f2328" font-size="13">TypeScript</text>
@@ -63,7 +63,7 @@
     <text x="480" y="97" fill="#656d76" font-size="13" text-anchor="end">17%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="125" fill="#1f2328" font-size="13">Rust</text>
-    <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">15%</text>
+    <text x="480" y="125" fill="#656d76" font-size="13" text-anchor="end">16%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="153" fill="#1f2328" font-size="13">Python</text>
     <text x="480" y="153" fill="#656d76" font-size="13" text-anchor="end">15%</text>
@@ -98,28 +98,28 @@
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#dea584" stroke-width="24"
-      stroke-dasharray="75.39822368615503 502.6548245743669"
+      stroke-dasharray="80.4247719318987 502.6548245743669"
       stroke-dashoffset="-291.5397982531328"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#3572A5" stroke-width="24"
       stroke-dasharray="75.39822368615503 502.6548245743669"
-      stroke-dashoffset="-366.93802193928786"
+      stroke-dashoffset="-371.9645701850315"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#DA5B0B" stroke-width="24"
       stroke-dasharray="20.106192982974676 502.6548245743669"
-      stroke-dashoffset="-442.33624562544287"
+      stroke-dashoffset="-447.36279387118657"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#ec915c" stroke-width="24"
       stroke-dasharray="10.053096491487338 502.6548245743669"
-      stroke-dashoffset="-462.44243860841755"
+      stroke-dashoffset="-467.46898685416124"
       transform="rotate(-90 125 125)" />
     <circle cx="125" cy="125" r="80" fill="none"
       stroke="#f1e05a" stroke-width="24"
       stroke-dasharray="5.026548245743669 502.6548245743669"
-      stroke-dashoffset="-472.4955350999049"
+      stroke-dashoffset="-477.5220833456486"
       transform="rotate(-90 125 125)" />
     <rect x="280" y="30" width="12" height="12" rx="2" fill="#3178c6" />
     <text x="300" y="41" fill="#e6edf3" font-size="13">TypeScript</text>
@@ -132,7 +132,7 @@
     <text x="480" y="97" fill="#8b949e" font-size="13" text-anchor="end">17%</text>
     <rect x="280" y="114" width="12" height="12" rx="2" fill="#dea584" />
     <text x="300" y="125" fill="#e6edf3" font-size="13">Rust</text>
-    <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">15%</text>
+    <text x="480" y="125" fill="#8b949e" font-size="13" text-anchor="end">16%</text>
     <rect x="280" y="142" width="12" height="12" rx="2" fill="#3572A5" />
     <text x="300" y="153" fill="#e6edf3" font-size="13">Python</text>
     <text x="480" y="153" fill="#8b949e" font-size="13" text-anchor="end">15%</text>
